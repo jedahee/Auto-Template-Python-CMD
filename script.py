@@ -83,6 +83,8 @@ while (opc != 0):
             project_selected = input(">> ")
 
         else:
+
+            # Picking the project details (version, preprocessor...)
             if (len(func.projects[project_selected]) > 0):
                 print("\n")
                 func.print_keys_from_projects(project_selected)
@@ -93,16 +95,18 @@ while (opc != 0):
                     print("\n ERROR: You must select a right option \n")
                     details_project_selected = input(" >> ")
 
+    # Sets path, file name and folder name
     elif (opc == 2):
-        path = input("(/home/user/) Path >> ")       
+        path = input("(Ex.: /var/www) Path >> ")       
         
         while func.set_path(path) == "":
             print("\n ERROR: Path does not exist \n")
-            path = input("(/home/user/) Path >> ") 
+            path = input("(Ex.: /var/www) Path >> ") 
 
         folder_name = func.set_folderName(input("Folder name >> "))       
         file_name = func.set_fileName(input("File name >> "))
     
+    # Creating templates
     elif (opc == 3):
         func.create_template(project_selected, details_project_selected)
         
