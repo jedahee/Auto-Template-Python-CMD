@@ -103,12 +103,12 @@ class Function():
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="''' + self.file_name + '''">
+    <link rel="stylesheet" href="''' + self.file_name + '''.css">
     <title>Document</title>
 </head>
 <body>
     <!-- Auto-generated with autoTemplate -->        
-    <script src="''' + self.file_name + '''"></script>
+    <script src="''' + self.file_name + '''.js"></script>
 </body>
 </html>
         '''
@@ -126,7 +126,7 @@ class Function():
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="''' + self.file_name + '''">
+    <link rel="stylesheet" href="''' + self.file_name + '''.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@'''+version+'''/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -135,7 +135,7 @@ class Function():
 <body>
     <!-- Auto-generated with autoTemplate -->
     <p class="display-1">Auto-generated with autoTemplate</p>        
-    <script src="''' + self.file_name + '''"></script>
+    <script src="''' + self.file_name + '''.js"></script>
 </body>
 </html>
         '''
@@ -163,12 +163,12 @@ class Function():
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="''' + self.file_name + '''">
+    <link rel="stylesheet" href="''' + self.file_name + '''.css">
     <title>Document</title>
 </head>
 <body>
     <!-- Auto-generated with autoTemplate -->        
-    <script src="''' + self.file_name + '''"></script>
+    <script src="''' + self.file_name + '''.js"></script>
 
     <!-- JQuery Link -->
 
@@ -190,7 +190,7 @@ class Function():
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="''' + self.file_name + '''">
+    <link rel="stylesheet" href="''' + self.file_name + '''.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Document</title>
@@ -200,7 +200,7 @@ class Function():
     <h1 class="text-3xl font-bold underline">
         Auto-generated with autoTemplate
     </h1>        
-    <script src="''' + self.file_name + '''"></script>
+    <script src="''' + self.file_name + '''.js"></script>
 </body>
 </html>
         '''
