@@ -1,5 +1,5 @@
-# Author: Jesús Daza Hernández
-# Nick: jedahee02
+# Author: Jesús Daza
+# Nick: jedahee
 # Email: jdaza.her@gmail.com
 # Details: Main script
 # Description: Script that make yor structure folder project or template from 
