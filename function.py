@@ -1,5 +1,5 @@
-# Author: Jesús Daza Hernández
-# Nick: jedahee02
+# Author: Jesús Daza
+# Nick: jedahee
 # Email: jdaza.her@gmail.com
 # Details: Script that contain the functionallity (Function class)
 # Description: This script can create the structure folder or templates for projects 
