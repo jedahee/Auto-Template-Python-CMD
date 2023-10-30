@@ -13,8 +13,11 @@ _You need to clone the project in a local environment._
 _To use AutoTemplate you should know that you can:_
 
 _1. Set the path where you should create the structure of the project._
+
 _2. Set the name of the files to be generated_
+
 _3. Create project structure automatically_
+
 _0. Exit_
 
 
@@ -33,7 +36,6 @@ _You need have installed_
 | Package name | Version |
 | ------------ | ------- |
 | Python       | 3.10    |
-| Cx-Freeze    | 6.15    |
 
 ### Installing 🔧
 
@@ -42,19 +44,7 @@ _These are the next steps to be able to execute the project in your local enviro
 _You can use Git or Github to clone the project in a local environment. If you use Github you must click on the button that says 'Code' and then on 'Download Zip'. But if you use Git you can use the following command:_
 
 ```
-git clone https://github.com/jedahee/Minesweeper-Game-Python-CMD.git)
-```
-
-Next, you need to install the project dependencies, to do this, run:
-
-```
-pip install -r /your/path/project/requirements.txt
-```
-
-_If you want generate the correct executable for your OS, you need to run:_
-
-```
-python setup.py build
+git clone https://github.com/jedahee/Auto-Template-Python-CMD.git)
 ```
 
 ## Deployment 📦
