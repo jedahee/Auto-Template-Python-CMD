@@ -10,6 +10,12 @@ _You need to clone the project in a local environment._
 
 ### How to use
 
+_To use AutoTemplate you should know that you can:_
+
+_1. Set the path where you should create the structure of the project._
+_2. Set the name of the files to be generated_
+_3. Create project structure automatically_
+_0. Exit_
 
 
 _To run the script:_
